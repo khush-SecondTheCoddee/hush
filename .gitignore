@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+# PUIDs, sessions, ciphertext, and SQLite WAL/shared-memory state are runtime data.
+data/chat.sqlite*
+data/social.json
+.render/
